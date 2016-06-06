@@ -5,6 +5,8 @@
 
 	<!--[if lt IE 9]><script type="text/javascript">(function(){var t="article,aside,figcaption,figure,footer,header,hgroup,nav,section".split(',');for(var i=0;i<t.length;i++)document.createElement(t[i]);})();</script><![endif]-->
 	<link href='styles/style.css' rel='stylesheet' type='text/css'>
+	<link href='fullPage.js-master/examples/example.css' rel='stylesheet' type='text/css'>
+	<link href='fullPage.js-master/jquery.fullPage.css' rel='stylesheet' type='text/css'>
  	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>' rel='stylesheet' type='text/css'>
 <style>
 #annual-report-badge {
@@ -41,7 +43,8 @@
 				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
 				 anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
 				menu: '#menu',
-				scrollingSpeed: 1000
+				scrollingSpeed: 1000,
+				scrollBar: true
 			});
 		});
 	</script>
@@ -64,12 +67,40 @@
 </header>
 
 <div id="fullpage">
-	<div class="section " id="section1">
-		<h1>Hello RON</h1>
-		 <input type="hidden" name="id" value="1" />
+	<div class="section active" id="section1">
+		<div class="slide">
+			<div class="intro">
+				
+				<img src="imgs/Sadai - CP - AAS - One pager.jpg" alt="slider" />
+				
+				
+			</div>
+
+		</div>
+		<div class="slide">
+			<div class="intro">
+				<img src="imgs/Image1.jpg" alt="simple" />
+				<h1>Simple</h1>
+				
+			</div>
+		</div>
+		<div class="slide">
+			<div class="intro">
+				<img src="imgs/Image2.jpg" alt="Cool" />
+				
+				
+			</div>
+		</div>
+		<div class="slide">
+			<div class="intro">
+				<img src="imgs/Image3.png" alt="Compatible" />
+			
+				
+			</div>
+		</div>
 		
 	</div>
-	<div class="section active" id="section2">
+	<div class="section" id="section2">
 	<div class="intro">
 		
 		<h1>What You Doing</h1>
